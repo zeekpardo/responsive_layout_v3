@@ -194,6 +194,12 @@ a {
         display: flex;
         justify-content: space-between;
     }
+    h1 {
+        margin-left: .5em;
+    }
+    header ul {
+        padding: 1em;
+    }
     .portfolio {
         display: flex;
         flex-wrap: wrap;
