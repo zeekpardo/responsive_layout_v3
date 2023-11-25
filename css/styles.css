@@ -207,10 +207,13 @@ a {
     .col {
         max-width: 30%;
     }
-    h2 {
-        font-size: 1.5rem;
+
+    .contact h2, h2 {
+        font-size: 1rem;
     }
     .contact p {
-        margin: 0 8.3em;
+        font-size: 1rem;
+        margin: 0 20em;
+        padding-bottom: 1em;
     }
 }
