@@ -3,9 +3,10 @@
     font-family: 'Noto Sans', sans-serif;
     margin: 0;
 }
-body {
+/* body {
     text-align: center;
-}
+} */
+
 header {
     background-color: #f8f8f8;
     text-align: center;
@@ -104,7 +105,7 @@ a {
 
 
 /*Classes*/
-.profile {
+.profile-section {
     background-color: #f8f8f8;
 }
 .profile img {
@@ -185,9 +186,11 @@ a {
     .footer-mobile {
         display: none;
     }
-    .footer-tablet {
+    .footer-tablet, hr {
         display: flex;
         justify-content: space-between;
+        max-width: 1200px;
+        margin: 0 auto;
     }
     footer li {
         font-size: 1em;
@@ -196,21 +199,38 @@ a {
 }
 
 @media screen and (min-width: 1024px) {
+    .header-margin {
+        background-color: #f8f8f8;
+    }
     header {
         display: flex;
         justify-content: space-between;
+        margin: 0 auto;
+        max-width: 1200px;
     }
+    nav {
+    }
+   
     h1 {
         margin-left: .5em;
     }
     header ul {
         padding: 1em;
     }
+    .main-content {
+        max-width: 1200px;
+    }
+    .about {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
     .portfolio {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         gap: .9em;
+        max-width: 1200px;
+        margin: 0 auto;
     }
     .portfolio p {
         font-size: 1rem;
