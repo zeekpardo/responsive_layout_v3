@@ -1,0 +1,190 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0;
+}
+body {
+    text-align: center;
+}
+
+header {
+    background-color: #f8f8f8;
+    text-align: center;
+}
+header ul {
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    max-width: 90%;
+    text-transform: uppercase;
+}
+
+img {
+   max-width: 90%;
+}
+
+h1 {
+    color: #404040;
+    font-size: 2.3rem;
+    font-weight: 600;
+    padding: .9em;
+}
+h2 {
+    font-size: 1.8rem;
+    font-weight: 300;
+    margin: 1em 0;
+    text-align: center;
+}
+
+p {
+    color: gray;
+    font-size: 1.5rem;
+    line-height: 1.4;
+    margin: 0 1.5em;
+}
+footer {
+    margin-top: 2em;
+    padding-top: 4em;
+    background-color: #f8f8f8;
+}
+footer h2 {
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+footer p {
+    color: gray;
+    margin: 1.2em;
+}
+
+
+footer ul {
+    margin: 1em;
+    padding: 2em 0;
+    display: flex;
+    justify-content: space-between;
+}
+footer li {
+    font-size: 1.2em;
+    font-weight: 600;
+}
+hr {
+    width: 90%;
+    margin: auto;
+}
+
+
+/* 
+Navigation  */
+nav {
+    text-align: center;
+}
+nav ul {
+    padding-bottom: 1em;
+    margin: 0 auto;
+    
+}
+nav li {
+    background-color: white;
+    text-align: center;
+    line-height: 3em;
+    margin: 0 0 .5em 0;
+    height: 3em;
+    font-weight: 800;
+    font-size: 1.2rem;
+}
+a {
+    color: #404040;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+/*Classes*/
+.profile-section {
+    background-color: #f8f8f8;
+}
+.profile img {
+    margin-top: 2.3em;
+    max-width: 75%;
+}
+.profile p {
+    color: grey;  
+    padding-bottom: 1.2em;
+}
+
+.contact {
+    padding-bottom: 3em;
+}
+.footer-tablet {
+    display: none;
+}
+.portfolio p {
+    color: #404040;
+    margin-bottom: 1.3em;
+}
+/* Media Queries */
+
+@media screen and (min-width: 768px) {
+    header {
+        display:flex;
+        flex-direction: row;
+    }
+    .about {
+        display: flex;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .header-margin {
+        background-color: #f8f8f8;
+    }
+    header {
+        display: flex;
+        /* justify-content: space-between; */
+        margin: 0 auto;
+        max-width: 1200px;
+    }
+    nav {
+    }
+   
+    h1 {
+        margin-left: .5em;
+    }
+    header ul {
+        padding: 1em;
+    }
+    /* .main-content {
+        max-width: 1200px;
+    } */
+    .about {
+        max-width: 1200px;
+        /* margin: 0 auto; */
+    }
+    .portfolio {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: .9em;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    .portfolio p {
+        font-size: 1rem;
+        margin: 0 1.2em 1.5em 1.2em;
+    }
+    .col {
+        max-width: 30%;
+    }
+
+    .contact h2, h2 {
+        font-size: 1rem;
+    }
+    .contact p {
+        font-size: 1rem;
+        margin: 0 20em;
+        padding-bottom: 1em;
+    }
+}

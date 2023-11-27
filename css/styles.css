@@ -99,14 +99,14 @@ article {
     font-weight: 400;
     order: 2;
     margin: 1em 0;
-    text-transform: capitalize;
+    text-transform: capitalize; 
 }
 .col2{
-    color: rgb(95, 95, 95);
+    /color: rgb(95, 95, 95);
     font-size: 1.4rem;
     line-height: 1.5;
     order: 3;
-    margin: 0 2em;
+    margin: 0 2em; 
 }
 /* ---- footer ---- */
 .contact {
@@ -160,7 +160,7 @@ hr {
 Media Queries
 ==================================== */
 @media screen and (min-width: 768px) {
-   .main-header {
+    .main-header {
     display: flex;
     flex-direction: column;
    }
@@ -193,16 +193,21 @@ Media Queries
         padding: 4em 0;
         margin: 2em;
         flex-grow: 2;
-        width: 80%;
+        width: 1200px s;
     }
     .about2 {
         padding: 1em;
         flex-grow: 1;
-    }
+    } 
     .projects {
         display: flex;
-        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
     }
+    .article {
+        max-width: 50%;
+    }
+  
     .footer-mobile {
         display: none;
     }
@@ -215,7 +220,7 @@ Media Queries
     .contact {
         max-width: 80%;
         margin: auto;
-    }
+    } 
 }
 
 @media screen and (min-width: 1024px) {
@@ -224,7 +229,7 @@ Media Queries
         flex-direction: row;
         justify-content:space-between;
         max-width: 1200px;
-        margin: auto;
+        margin: auto 2em;
     }
     .about, .contact, .projects {
         margin: auto;
@@ -236,6 +241,9 @@ Media Queries
     .portfolio {
         font-size: 1rem;
     }
+    .article {
+        max-width: 33%;
+    }
     .col1 {
         font-size: 1.2rem;
     }
@@ -244,6 +252,6 @@ Media Queries
         }
     .contact {
         max-width: 700px;
-    }
+    } 
 }
 
