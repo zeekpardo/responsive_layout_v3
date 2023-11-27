@@ -10,63 +10,45 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <div class="header-margin">
-        <header>
-                <h1>Student Name</h1>
-                <nav>
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#portfolio">Portfolio</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                </nav> 
+    <div class="banner">
+        <header class="main-header">
+            <h1 class="name">zeek pardo</h1>
+            <ul class="main-nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
         </header>
-    </div>  
-
+    </div>
     <main>
-        <div class="profile">
-            <section class="profile-section">
-                <div class="about">
-                    <img class="about1" src="images/responsive-layout-profile.png" alt="profile photo"  >
-                    <p class="about2">Hi! I'm a front-end developer who loves responsive design and css. I recently finished a degree in front-end web development at Treehouse and am excited to put all my skills to use!</p>
-                </div>
+        <div class="about-banner">
+            <section class="about">
+                <h2 class="about1">Hi! I'm a front-end developer who loves responsive design and css. I recently finished a degree in front-end web development at Treehouse and am excited to put all my skills to use!</h2>
+                <img class="about2" src="images/responsive-layout-profile.png" alt="profile photo"  >
             </section>
-             
-            <h2 id="portfolio">Portfolio</h2>
-
-            <div class="portfolio" >
-                <section class="col">
-                    <img src="images/portfolio-1.png" alt="image of profile" >
-                    <h2>Marketing Page</h2>
-                    <p>This project shows the front page of a marketing wensite meant for a specific business I'm interested in.</p>
-                </section>
-                <section class="col">
-                    <img src="images/portfolio-2.png" alt="marketing page image" >
-                    <article>Search Page</article>
-                    <p>This project searches through a specific database to find information that the user is trying to look up.</p>
-                </section>
-                <section class="col">
-                    <img src="images/portfolio-3.png" alt="search page image" >
-                    <article>Travel App</article>
-                    <p>This project compares travel times based on different transportation methods and tells you the best one.</p>
-                </section>
-                <section class="col">
-                    <img src="images/portfolio-4.png" alt="Travel App image" >
-                    <article>Map of Favorite Spots</article>
-                    <p>This project uses mapping apis to plot points for my favorite spots in the city for a do-it-yourself walking tour.</p>
-                </section>
-                <section class="col">
-                    <img src="images/portfolio-5.png" alt="map of favorite spots image" >
-                    <article>Photo Gallery</article>
-                    <p>This project shows pitures from a recent trip to the viewer and allows them to easily navigate through photos</p>
-                </section>
-                <section class="col">
-                    <img src="images/portfolio-6.png" alt="photo gallery image" >
-                    <article>Calculator</article>
-                    <p>Someone can enter in the numbers they want, and press the big blue button and get the results.</p>
-                </section>
-            </div>
         </div>
+            
+        <h2 id="portfolio" class="portfolio">Portfolio</h2>
+        <section id="projects" class="projects">
+            <article id="marketing-page" class="article">
+                <h2 class="col1">marketing page</h2>
+                <p class="col2">This project shows the front page of a marketing wensite meant for a specific business I'm interested in.</p>
+                <img class="col3" src="images/portfolio-1.png" alt="image marketing screenshot">
+            </article>
+
+            <article id="search-page" class="article">
+                <h2 class="col1">search page</h2>
+                <p class="col2">This project shows the front page of a marketing wensite meant for a specific business I'm interested in.</p>
+                <img class="col3" src="images/portfolio-2.png" alt="image marketing screenshot">
+            </article>
+        
+            <article id="search-page" class="article">
+                <h2 class="col1">travel app</h2>
+                <p class="col2">This project shows the front page of a marketing wensite meant for a specific business I'm interested in.</p>
+                <img class="col3" src="images/portfolio-3.png" alt="image marketing screenshot">
+            </article>
+    </section>
+        
     </main>
 
     <div class="header-margin">
@@ -78,19 +60,21 @@
                     <p> Email <a href="mailto:email@yoursite.com">email@yoursite.com</a></p>
             </div>
             <hr>
-            <ul class="footer-mobile">
-                <li class="a">Student name</li>
-                <li><a href="#">Back to top</a></li>
-            </ul>
-            <div class="footer-tablet">
-                <ul>
-                    <li>Student name</li>
+            <div class="footer-nav">
+                <ul class="footer-mobile">
+                    <li class="student">zeek pardo</li>
+                    <li class="top"><a href="#">Back to top</a></li>
                 </ul>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
+                <div class="footer-tablet">
+                    <ul>
+                        <li class="student">zeek pardo</li>
+                    </ul>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+            </div>
             </div>
         </Footer>
     </div>
