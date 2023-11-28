@@ -46,7 +46,7 @@ main {
 }
 .name {
     padding: 1em 0 .5em 0;
-    color: 404040;
+    color: #404040;
     text-transform: capitalize;
 }
 /* ---- Profile  ---- */
@@ -193,7 +193,7 @@ Media Queries
         padding: 4em 0;
         margin: 2em;
         flex-grow: 2;
-        width: 1200px s;
+        width: 1200px;
     }
     .about2 {
         padding: 1em;
