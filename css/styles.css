@@ -176,7 +176,7 @@ Media Queries
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 40px, 15px;
+    column-gap: 30px;
 }
     .name {
         font-size: 1.5rem;
